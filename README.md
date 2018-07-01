@@ -50,5 +50,5 @@ Util::isInteger($id, false); // return true
 Util::isInteger($id); // return true
 ``` 
 # Note
-in this function use (int) casting. so, the length of integer value depend on system you are working 0n.  
+This function use (int) casting. so, the length of integer value depend on system you are working 0n.  
 result may not valid if variable larger than its limited.
