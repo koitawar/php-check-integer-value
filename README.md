@@ -20,7 +20,7 @@ $id = $_GET['id'];
 is_int($id); // return false
 is_numeric($id); // return true
 
-http://address/path/12
+http://address/path/0012
 $id = $_GET['id']; 
 is_int($id); // return false
 is_numeric($id); // return true
