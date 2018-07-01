@@ -45,6 +45,7 @@ http://address/path/0012xyz // return false
 And we can set whether function can accept value lower than "1" or not. default is yes.
 ```
 http://address/path/-12 
+$id = $_GET['id']; 
 Util::isInteger($id, true); // return false
 Util::isInteger($id, false); // return true
 Util::isInteger($id); // return true
